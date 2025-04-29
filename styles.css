@@ -217,7 +217,7 @@ td {
 
 .overviewImage-align-right {
   margin-top: 20px;
-  width: 40%; 
+  width: 40%;
 }
 
 .zeekybooble {
@@ -245,7 +245,7 @@ td {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
   border: none;
   color: #000;
   font-size: 24px;
@@ -269,7 +269,7 @@ td {
 }
 
 .carousel-nav:hover {
-  background: rgba(255,255,255,0.9);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 /* Remove arrows from slides */
@@ -286,26 +286,24 @@ td {
   gap: 10px;
 }
 
- 
+.iphone-frame {
+  width: 300px;
+  height: 600px;
+  border-radius: 50px;
+  background: black;
+  padding: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .iphone-frame {
-      width: 300px;
-      height: 600px;
-      border-radius: 50px;
-      background: black;
-      padding: 16px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.3);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .iphone-video {
-      width: 100%;
-      height: 100%;
-      border-radius: 40px;
-      object-fit: cover;
-    }
+.iphone-video {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  object-fit: cover;
+}
 
 input[type="radio"] {
   display: none;
@@ -324,12 +322,10 @@ input[type="radio"] {
   gap: 10px; /* Added gap between images and content */
 }
 
-
 input[type="radio"]:checked + .slide {
   opacity: 1;
   position: relative; /* Bring active slide to front */
 }
-
 
 .slide-images {
   display: flex;
@@ -341,13 +337,11 @@ input[type="radio"]:checked + .slide {
   min-height: 400px; /* Reduced from 450px */
 }
 
-
-
 .slide-images img {
   max-height: 400px;
   max-width: 100%;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   object-fit: contain;
 }
 
@@ -359,11 +353,12 @@ input[type="radio"]:checked + .slide {
   margin-bottom: 15px; /* Reduced from 20px */
 }
 
-.prev, .next {
+.prev,
+.next {
   position: absolute; /* Position relative to carousel-container */
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
   border: none;
   color: #000;
   font-size: 24px;
@@ -385,8 +380,9 @@ input[type="radio"]:checked + .slide {
   right: 20px;
 }
 
-.prev:hover, .next:hover {
-  background: rgba(255,255,255,0.9);
+.prev:hover,
+.next:hover {
+  background: rgba(255, 255, 255, 0.9);
 }
 
 /* Feature sections styling */
@@ -433,7 +429,7 @@ input[type="radio"]:checked + .slide {
   width: auto;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   border: 1px solid #f0f0f0;
   transition: all 0.3s ease;
   margin-bottom: -50px;
@@ -441,9 +437,8 @@ input[type="radio"]:checked + .slide {
 
 .wireframe-image:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
-
 
 /* Text styling */
 .whiteContainer2 h6 {
@@ -479,4 +474,3 @@ input[type="radio"]:checked + .slide {
   margin-top: 1rem;
   margin-bottom: 80px;
 }
-
